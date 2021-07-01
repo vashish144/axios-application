@@ -40,7 +40,7 @@ export default class Login extends Component {
     console.log("****" + this.state.username + "****" + this.state.password);
     return (
       <div>
-        <h1>Login page</h1>
+        <h1>Login User</h1>
         <form onSubmit={this.handleSubmit}>
           <div>
             <label>UserName: </label>
